@@ -1,4 +1,7 @@
 //imported structure
+
+import Header from, " Welcome to our Application!";
+
 const Home: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-screen">
