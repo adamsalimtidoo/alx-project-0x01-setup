@@ -47,6 +47,7 @@ interface UserProps {
   }
 }
 //"export interface UserProps"
+//"onSubmit: (post: UserProps) => void;"
 {
   "id": 1,
   "name": "Leanne Graham",
