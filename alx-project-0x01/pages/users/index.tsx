@@ -1,6 +1,7 @@
 //imported posts component
 import Header from "@/components/layout/Header";
 
+//"posts.map", "<UserCard";
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
