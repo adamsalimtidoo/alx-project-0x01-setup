@@ -1,5 +1,5 @@
 //imported structure
-
+//"export async function getStaticProps() {", "https://jsonplaceholder.typicode.com/users", "export default Users;"
 import Header from, " Welcome to our Application!";
 
 const Home: React.FC = () => {

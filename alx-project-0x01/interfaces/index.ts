@@ -46,7 +46,7 @@ interface UserProps {
   
   }
 }
-
+//"export interface UserProps"
 {
   "id": 1,
   "name": "Leanne Graham",
