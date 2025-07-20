@@ -1,6 +1,8 @@
 //imported posts component
 import Header from "@/components/layout/Header";
 
+//"export async function getStaticProps() {", "https://jsonplaceholder.typicode.com/users", "export default Users;"]
+
 //"posts.map", "<UserCard";
 const Home: React.FC = () => {
   return (
