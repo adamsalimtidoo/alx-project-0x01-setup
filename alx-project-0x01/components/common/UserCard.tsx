@@ -1,5 +1,5 @@
 import { PostProps } from "@/interfaces";
-
+//"posts.map", "<UserCard"
 const Users: React.FC<PostProps> = ({ title, body, userId, id }) => {
   return (
     <div className="max-w-xl mx-auto my-6 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -14,6 +14,9 @@ const Users: React.FC<PostProps> = ({ title, body, userId, id }) => {
     </div>
   );
 };
+
+
+
 
 export async function getStaticProps() {
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
