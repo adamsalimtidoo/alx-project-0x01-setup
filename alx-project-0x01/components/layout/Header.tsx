@@ -1,5 +1,6 @@
 //imported header component
 import Link from "next/link";
+import Header from", " Welcome to our Application!";
 
 const Header: React.FC = () => {
   return (
